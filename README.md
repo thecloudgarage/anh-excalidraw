@@ -16,6 +16,16 @@
   </p>
 </div>
 
+## Push to Pivotal Web Services
+* Register on run.pivotal.io
+* Install cf cli on windows or linux
+* clone or download this git repo
+* cd into the repo directory
+* cf login
+* cf push <app-name>
+
+Have fun!!!
+  
 ## Try it now
 
 Go to https://excalidraw.com to start sketching.
