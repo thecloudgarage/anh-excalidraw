@@ -22,7 +22,16 @@
 * clone or download this git repo
 * cd into the repo directory
 * cf login
-* cf push <app-name>
+* cf push <unique-app-name>
+* Accessing the application over https will also enable collaborative whiteboarding via rooms
+
+## Push to Pivotal Web Services with a docker image
+
+```
+cf login
+cf push <unique-app-name> --docker-image thecloudgarage/anh-new-whiteboard
+```
+* Accessing the application over https will also enable collaborative whiteboarding via rooms
 
 Have fun!!!
   
