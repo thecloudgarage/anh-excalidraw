@@ -16,6 +16,15 @@
   </p>
 </div>
 
+## Build the application
+
+* Install nodejs
+* sudo npm install
+* npm run-script build
+* cd build
+* touch Staticfile
+* cf push
+
 ## Push to Pivotal Web Services
 * Register on run.pivotal.io
 * Install cf cli on windows or linux
